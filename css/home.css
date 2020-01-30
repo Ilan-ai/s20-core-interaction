@@ -1,0 +1,10 @@
+#name{
+  position:fixed;
+  margin-left: 20px;
+  z-index:2;
+  font: bold 90px Sans-Serif;
+  color: lightgrey;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
