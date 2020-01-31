@@ -4,15 +4,143 @@
   margin-top: 15px;
   z-index:2;
   font: bold 90px Sans-Serif;
-  color: lightgrey;
+  color: grey;
   letter-spacing: 2px;
   text-transform: uppercase;
   writing-mode: vertical-rl;
 }
 
 #circle1{
+  position: absolute;
+  top: 45%;
+  left:30%;
   width: 100px;
   height: 100px;
   background: red;
-  border-radius: 50%
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#classmates{
+  position:fixed;
+  top: 50%;
+  left: 30.5%;
+  font: bold 20px Sans-Serif;
+  color: white;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+#circle1:hover{
+  width: 150px;
+  height: 150px;
+  transform: translate(-10%,-10%);
+  z-index: 1;
+  animation: color_change 5s infinite linear;
+}
+
+@-webkit-keyframes color_change {
+		0%{
+				background-color: red;
+		}
+		50%{
+				background-color: blue;
+		}
+    100%{
+				background-color: red;
+		}
+}
+
+#square2{
+  position: absolute;
+  top: 45%;
+  left:50%;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+#square2:hover{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  transform: translate(-10%,-10%);
+  animation: color_change2 5s infinite linear;
+}
+
+@-webkit-keyframes color_change2 {
+		0%{
+				background-color: red;
+		}
+		50%{
+				background-color: yellow;
+		}
+    100%{
+				background-color: red;
+		}
+}
+
+button {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid red;
+  color:black;
+
+}
+
+footer {
+  visibility: hidden;
+  margin-left: 20px;
+  margin-top: 50px;
+  padding: 20px 0px;
+  position: absolute;
+  top: 60%;
+  left:42%;
+}
+
+
+#triangle3{
+  position: absolute;
+  top: 45%;
+  left:70%;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+#triangle3:hover{
+  position: absolute;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 140px solid red;
+  transform: translate(-10%,-10%);
+  animation: color_change3 5s infinite linear;
+}
+
+#about_text{
+  visibility: hidden;
+  position:fixed;
+  width: 700px;
+  height: 150px;
+  top: 10%;
+  left: 30.5%;
+  font: 20px Sans-Serif;
+  color: black;
+  z-index: 2;
+}
+
+@-webkit-keyframes color_change3 {
+		0%{
+				border-bottom: 140px solid red;
+		}
+		50%{
+				border-bottom: 140px solid pink;
+		}
+    100%{
+				border-bottom: 140px solid red;
+		}
 }
