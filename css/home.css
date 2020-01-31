@@ -14,18 +14,20 @@ a:hover, a:active {
 }
 
 #name{
+  visibility: hidden;
   position:fixed;
-  left: 29%;
+  top:12%;
+  left: 28%;
   z-index:2;
   font: bold 90px Sans-Serif;
-  color: grey;
+  color: lightgrey;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #circle1{
   position: absolute;
-  top: 45%;
+  top: 40%;
   left:28%;
   width: 100px;
   height: 100px;
@@ -36,7 +38,7 @@ a:hover, a:active {
 
 #classmates{
   position:fixed;
-  top: 51.5%;
+  top: 46.5%;
   left: 27.5%;
   font: bold 20px Sans-Serif;
   color: white;
@@ -66,7 +68,7 @@ a:hover, a:active {
 
 #square2{
   position: absolute;
-  top: 45%;
+  top: 40%;
   left:48%;
   width: 100px;
   height: 100px;
@@ -97,7 +99,7 @@ a:hover, a:active {
 
 #projects{
   position:fixed;
-  top: 51.5%;
+  top: 46.5%;
   left: 48.5%;
   font: bold 20px Sans-Serif;
   color: white;
@@ -128,7 +130,7 @@ footer {
 
 #triangle3{
   position: absolute;
-  top: 45%;
+  top: 40%;
   left:68%;
   width: 0;
   height: 0;
@@ -150,7 +152,7 @@ footer {
 
 #about{
   position:fixed;
-  top: 51.5%;
+  top: 46.5%;
   left: 69.75%;
   font: bold 20px Sans-Serif;
   color: white;
@@ -163,12 +165,18 @@ footer {
   position:fixed;
   width: 900px;
   height: 150px;
-  top: 70%;
+  top: 62%;
   left: 20%;
   font: 20px Sans-Serif;
   color: black;
   z-index: 2;
   text-align: center;
+
+}
+
+#note{
+  font-size: 15px;
+  line-height: 10px;
 }
 
 @-webkit-keyframes color_change3 {
