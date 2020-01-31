@@ -1,19 +1,32 @@
+a:link, a:visited {
+  visibility: hidden;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:5px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
 #name{
   position:fixed;
-  margin-left: 0px;
-  margin-top: 15px;
+  left: 29%;
   z-index:2;
   font: bold 90px Sans-Serif;
   color: grey;
   letter-spacing: 2px;
   text-transform: uppercase;
-  writing-mode: vertical-rl;
 }
 
 #circle1{
   position: absolute;
   top: 45%;
-  left:30%;
+  left:28%;
   width: 100px;
   height: 100px;
   background: red;
@@ -23,8 +36,8 @@
 
 #classmates{
   position:fixed;
-  top: 50%;
-  left: 30.5%;
+  top: 51.5%;
+  left: 27.5%;
   font: bold 20px Sans-Serif;
   color: white;
   text-transform: uppercase;
@@ -36,7 +49,7 @@
   height: 150px;
   transform: translate(-10%,-10%);
   z-index: 1;
-  animation: color_change 5s infinite linear;
+  animation: color_change 3s infinite linear;
 }
 
 @-webkit-keyframes color_change {
@@ -54,10 +67,11 @@
 #square2{
   position: absolute;
   top: 45%;
-  left:50%;
+  left:48%;
   width: 100px;
   height: 100px;
   background: red;
+  z-index: 3;
 }
 
 #square2:hover{
@@ -65,7 +79,8 @@
   width: 150px;
   height: 150px;
   transform: translate(-10%,-10%);
-  animation: color_change2 5s infinite linear;
+  animation: color_change2 3s infinite linear;
+  z-index: 1;
 }
 
 @-webkit-keyframes color_change2 {
@@ -78,6 +93,17 @@
     100%{
 				background-color: red;
 		}
+}
+
+#projects{
+  position:fixed;
+  top: 51.5%;
+  left: 48.5%;
+  font: bold 20px Sans-Serif;
+  color: white;
+  text-transform: uppercase;
+  z-index: 2;
+
 }
 
 button {
@@ -96,41 +122,53 @@ footer {
   margin-top: 50px;
   padding: 20px 0px;
   position: absolute;
-  top: 60%;
-  left:42%;
+  top: 15%;
+  left:40%;
 }
-
 
 #triangle3{
   position: absolute;
   top: 45%;
-  left:70%;
+  left:68%;
   width: 0;
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 100px solid red;
+  z-index: 3;
 }
 
 #triangle3:hover{
   position: absolute;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-bottom: 140px solid red;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid red;
   transform: translate(-10%,-10%);
-  animation: color_change3 5s infinite linear;
+  animation: color_change3 3s infinite linear;
+  z-index: 1;
+}
+
+#about{
+  position:fixed;
+  top: 51.5%;
+  left: 69.75%;
+  font: bold 20px Sans-Serif;
+  color: white;
+  text-transform: uppercase;
+  z-index: 2;
 }
 
 #about_text{
   visibility: hidden;
   position:fixed;
-  width: 700px;
+  width: 900px;
   height: 150px;
-  top: 10%;
-  left: 30.5%;
+  top: 70%;
+  left: 20%;
   font: 20px Sans-Serif;
   color: black;
   z-index: 2;
+  text-align: center;
 }
 
 @-webkit-keyframes color_change3 {
