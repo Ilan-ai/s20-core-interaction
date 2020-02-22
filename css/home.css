@@ -1,5 +1,4 @@
 a:link, a:visited {
-  visibility: hidden;
   background-color: #f44336;
   color: white;
   padding: 14px 25px;
@@ -11,6 +10,11 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: red;
+}
+
+#list{
+  visibility: hidden;
+
 }
 
 #name{
