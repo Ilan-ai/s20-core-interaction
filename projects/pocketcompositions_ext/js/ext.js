@@ -1,19 +1,18 @@
-var myRootDiv = document.getElementById("container");
+var s1 = document.getElementById("square1");
 
+setInterval(function(){
 
 for (var i = 0; i < 50; i++) {
 
-    var r = Math.ceil(Math.random()*255); // 144.77989
-    var g = Math.round(Math.random()*255);
-    var b = Math.floor(Math.random()*255);
+    var a1 = Math.round(Math.random()*255); // 144.77989
+    var a2 = Math.round(Math.random()*255);
 
-    var firstVariable = 'replace me wiht some css';
+    var firstVariable = 'replace me with some css';
 
     var myModule = `
 
-        <div class="myClass" style="background-color: rgb(${r}, ${g}, ${b});">
-            <div class="diagonalLine" style="${ firstVariable }"></div>
-            <div class="oval" style="${ firstVariable }"></div>
+        <div id="square1"
+        style="background-image: linear-gradient(to right ${a1}, ${a2});">
         </div>
 
     `;
@@ -22,3 +21,4 @@ for (var i = 0; i < 50; i++) {
 
 
 }
+}, 1000)
