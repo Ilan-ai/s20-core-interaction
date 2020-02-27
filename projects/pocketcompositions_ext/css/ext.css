@@ -25,8 +25,8 @@
 #square2{
   top:50%;
   left:50%;
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
   z-index: 99;
   background-image: linear-gradient(to right, #00FFFF, blue);
   animation: turn2 infinite linear;
@@ -48,8 +48,8 @@
   }
 
 #square3{
-  width:300px;
-  height:300px;
+  width:250px;
+  height:250px;
   z-index: 98;
   background-image: linear-gradient(to right, blue, #00FFFF);
   animation: turn3 infinite linear;
