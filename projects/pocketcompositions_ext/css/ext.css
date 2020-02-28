@@ -1,6 +1,9 @@
+.square{
+  display: inline-block;
+}
+
 #square1{
-  top:50%;
-  left:50%;
+  display: inline-block;
   width:50px;
   height:50px;
   z-index: 100;
@@ -23,16 +26,15 @@
 }
 
 #square2{
-  top:50%;
-  left:50%;
+  display: inline-block;
   width:150px;
   height:150px;
-  z-index: 99;
+  z-index: 50;
   background-image: linear-gradient(to right, #00FFFF, blue);
   animation: turn2 infinite linear;
   transform-origin: center;
   animation-duration: 2000ms;
-  animation-delay: 1s;
+
   }
 
   @keyframes turn2 {
@@ -48,9 +50,10 @@
   }
 
 #square3{
-  width:250px;
-  height:250px;
-  z-index: 98;
+  display: inline-block;
+  width:200px;
+  height:200px;
+  z-index: 0;
   background-image: linear-gradient(to right, blue, #00FFFF);
   animation: turn3 infinite linear;
   transform-origin: center;
