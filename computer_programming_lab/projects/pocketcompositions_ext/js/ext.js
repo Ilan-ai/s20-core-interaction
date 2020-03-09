@@ -1,4 +1,4 @@
-var s1 = document.getElementById("square1");
+var wholeset= document.getElementById("square");
 
 for (var i = 0; i < 50; i++) {
 
@@ -6,9 +6,8 @@ for (var i = 0; i < 50; i++) {
   var color2 = Math.floor(Math.random()*16777215).toString(16);
 // i need two seperate colors generated and then plug those colors into the "Mymodule" vairable :(
 
-    var wholeset= document.getElementById("square");
-
   //  var firstVariable = 'replace me with some css';
+
 
     var myModule = `
 

@@ -1,0 +1,54 @@
+body {
+  background-color:white;
+  text-align: center;
+  color:black;
+  padding-top:5em;
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+* { color:black; text-decoration: none;}
+
+#next{
+  position:absolute;
+  top: 65%;
+  left: 43%;
+  color:black;
+  opacity:0;
+  font-family: termina, sans-serif;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 100px;
+  animation: cd 4s infinite;
+  animation-delay:16s;
+}
+
+@keyframes cd {
+
+  0%{
+    opacity:0;
+  }
+  50%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+
+
+}
+
+a:link {
+		color: black;
+		text-decoration: none;
+}
+
+a:visited {
+		color: black;
+}
+
+a:hover {
+		color: lightgrey;
+	}

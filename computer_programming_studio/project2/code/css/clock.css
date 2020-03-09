@@ -1,0 +1,133 @@
+html{
+  font-size: 2vw;
+}
+
+.numbers{
+  font-family: futura-pt-bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 400px;
+  text-align: center;
+  color:white;
+  display:inline-block;
+}
+
+#n6am{
+  position:absolute;
+  width: 50rem;
+  opacity:1;
+  color:black;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n7am{
+  position:absolute;
+  width: 50rem;
+  opacity:1;
+  color:black;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n8am{
+  position:absolute;
+  width: 50rem;
+  opacity:1;
+  color:black;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n9am{
+  position:absolute;
+  width: 50rem;
+  opacity:1;
+  color:black;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n10am{
+  position:absolute;
+  width: 50rem;
+  opacity:1;
+  color:black;
+  text-shadow:;
+  z-index: 6;
+}
+
+
+#n12pm{
+  position:absolute;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n1pm{
+  position:absolute;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n2pm{
+  position:absolute;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n3pm{
+  position:absolute;
+  width: 50rem;
+  top:3rem;
+  opacity:0;
+  text-shadow:2px 1px black,
+  4px 2px black,
+  6px 3px black,
+  8px 4px black,
+  10px 5px black,
+  12px 6px black;;
+  z-index: 6;
+}
+
+#n4pm{
+  position:absolute;
+  top:3rem;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n5pm{
+  position:absolute;
+  top:3rem;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n6pm{
+  position:absolute;
+  top:3rem;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}
+
+#n7pm{
+  position:absolute;
+  top:3rem;
+  width: 50rem;
+  opacity:0;
+  text-shadow:;
+  z-index: 6;
+}

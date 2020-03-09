@@ -1,0 +1,176 @@
+body{
+background-color: black;
+
+}
+
+.colorshift{
+color: black;
+animation: shift 0s linear;
+}
+
+@-webkit-keyframes shift {
+  from {
+    color:black;
+  }
+
+  to {
+    color: white;
+  }
+}
+
+.courage{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:80px;
+  animation:glow 0s ease-in-out infinite alternate;
+  animation-delay:1;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+    }
+
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+
+    }
+  }
+
+
+#c{
+  color: #333333;
+  position: absolute;
+  top: 45%;
+  left:45%;
+  animation: move1 0s ease-in-out;
+}
+
+@-webkit-keyframes move1 {
+  0% {
+    left:45%;
+    color: #333333;
+  }
+
+  100% {
+    left:15%;
+    color: white;
+  }
+}
+
+#o{
+  position: absolute;
+  top: 5%;
+  left:90%;
+  animation: move2 0s ease-in-out;
+  }
+
+  @-webkit-keyframes move2 {
+  0% {
+    top: 5%;
+    left:90%;
+  }
+
+  100% {
+    top: 45%;
+    left:25%;
+  }
+  }
+
+#u{
+  position: absolute;
+  top: 80%;
+  left:90%;
+  animation: move3 0s ease-in-out;
+  }
+
+  @-webkit-keyframes move3 {
+  0% {
+    top: 80%;
+    left:90%;
+  }
+
+  100% {
+    top: 45%;
+    left:35%;
+  }
+  }
+
+#r{
+  position: absolute;
+  top: 80%;
+  left:46%;
+  animation-delay: 5s;
+  animation: move4 0s ease-in-out;
+  }
+
+  @-webkit-keyframes move4 {
+  0% {
+    top: 80%;
+    left:46%;
+  }
+
+  100% {
+    top: 45%;
+    left:45%;
+  }
+  }
+
+#a{
+  position: absolute;
+  top: 80%;
+  left:5%;
+  animation: move5 0s ease-in-out;
+  }
+
+  @-webkit-keyframes move5 {
+  0% {
+    top: 80%;
+    left:5%;
+  }
+
+  100% {
+    top: 45%;
+    left:55%;
+  }
+  }
+
+#g{
+  position: absolute;
+  top: 5%;
+  left:5%;
+  animation: move6 0s ease-in-out;
+  }
+
+  @-webkit-keyframes move6 {
+  0% {
+    top: 5%;
+    left:5%;
+  }
+
+  100% {
+    top: 45%;
+    left:65%;
+  }
+  }
+
+#e{
+  position: absolute;
+  top: 5%;
+  left:46%;
+  animation: move7 0s ease-in-out;
+  }
+
+  @-webkit-keyframes move7 {
+  0% {
+    top: 5%;
+    left:46%;
+  }
+
+  100% {
+    top: 45%;
+    left:75%;
+  }
+  }

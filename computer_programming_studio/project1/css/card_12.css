@@ -1,0 +1,467 @@
+#c{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 35%;
+  left:16%;
+  animation: move1 8s ease-in-out infinite;
+  animation delay:2s;
+  }
+
+  @-webkit-keyframes move1 {
+    0% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+    }
+
+    20% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+    }
+
+    40% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:150px;
+
+    }
+
+    80% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+  }
+
+#o{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 35%;
+  left:26%;
+  animation: move2 8s ease-in-out infinite;
+  animation delay:2s;
+  }
+
+  @-webkit-keyframes move2 {
+    0% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:150px;
+
+    }
+
+    20% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+
+    }
+
+    40% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+
+    }
+
+    80% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+    }
+  }
+
+#u{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 42%;
+  left:36%;
+  animation: move3 8s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes move3 {
+    0% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    20% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:150px;
+
+    }
+
+    40% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+    }
+
+    80% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+
+    }
+  }
+
+#r{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 35%;
+  left:46%;
+  animation: move4 8s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes move4 {
+    0% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+
+    }
+
+    20% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+
+    40% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+    }
+
+    80% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:150px;
+
+    }
+  }
+
+#a{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 42%;
+  left:56%;
+  animation: move5 8s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes move5 {
+    0% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:150px;
+
+    }
+
+    20% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+
+    }
+
+    40% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+
+    80% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+    }
+  }
+
+#g{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 35%;
+  left:66%;
+  animation: move6 8s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes move6 {
+    0% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    20% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+    }
+
+    40% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:150px;
+
+    }
+
+    80% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+    }
+  }
+
+#e{
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  position: absolute;
+  top: 42%;
+  left:76%;
+  animation: move7 8s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes move7 {
+    0% {
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:150px;
+
+    }
+
+    20% {
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:150px;
+
+    }
+
+    40% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:150px;
+
+    }
+
+    60% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:150px;
+    }
+
+    80% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:150px;
+
+    }
+
+    100% {
+      font-family:termina, sans-serif;
+      color: Yellow;
+      font-size:150px;
+
+
+    }
+  }
+
+a{
+  opacity:1;
+  position: absolute;
+  top:65%;
+  left:45%;
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:50px;
+  color: lightgrey;
+  animation: move8 8s ease-in-out infinite;
+  animation delay:2s;
+  }
+
+  @-webkit-keyframes move8 {
+    0% {
+
+      font-family:termina, sans-serif;
+      color: pink;
+      font-size:100px;
+
+    }
+
+    20% {
+      font-family: Cabazon, sans-serif;
+      color: red;
+      font-size:100px;
+
+    }
+
+    40% {
+      font-family:rowdy, sans-serif;
+      color: blue;
+      font-size:100px;
+
+    }
+
+    60% {
+      font-family:hwt-mardell, sans-serif;
+      color: green;
+      font-size:100px;
+
+    }
+
+    80% {
+      font-family:serifa, serif;
+      color: purple;
+      font-size:100px;
+
+    }
+
+    100% {
+    
+      font-family: Baskerville, serif;
+      color: yellow;
+      font-size:100px;
+
+    }
+  }
+a:link {
+		color: lightgrey;
+		text-decoration: none;
+}
+
+a:visited {
+		color: lightgrey;
+}
+
+a:hover {
+		color: black;
+	}

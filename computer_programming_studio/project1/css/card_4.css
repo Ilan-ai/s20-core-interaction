@@ -1,0 +1,99 @@
+body{
+background-color: black;
+animation: front 0s linear;
+animation: back 0s linear;
+}
+
+@-webkit-keyframes front {
+		from {
+				background-color: black;
+		}
+		to {
+				background-color: white;
+		}
+}
+
+@-webkit-keyframes back {
+		from {
+				background-color: white;
+		}
+		to {
+				background-color: black;
+		}
+}
+
+
+#fear{
+  position:absolute;
+  text-align: center;
+  top: 80%;
+  left:50%;
+  opacity:1;
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size:400px;
+  color: red;
+	animation: front1 0s linear;
+	animation: back1 0s linear;
+	transform: translate(-50%,-80%);
+  }
+
+	@-webkit-keyframes front1 {
+			from {
+					font-size: 400px;
+				}
+			to {
+					font-size: 20px;
+			}
+	}
+
+	@-webkit-keyframes back1 {
+			from {
+					font-size: 20px;
+			}
+			to {
+					font-size: 400px;
+			}
+	}
+
+
+#courage{
+  position:absolute;
+  text-align: center;
+  top: 20%;
+  left:50%;
+  opacity:1;
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color:white;
+  transition: font-size 10s ease;
+  transform: translate(-50%, 30%);
+}
+
+#courage:active{
+  opacity:1;
+  font-size:230px;
+}
+
+.next{
+	position: absolute;
+	top:80%;
+	left:48.5%;
+	font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color:white;
+}
+
+a:link {
+		color: black;
+		text-decoration: none;
+	}
+
+a:visited {
+		color: black;
+}

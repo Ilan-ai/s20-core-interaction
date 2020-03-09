@@ -1,0 +1,33 @@
+#courage{
+  position:absolute;
+  top: -40%;
+  left:0%;
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size:900px;
+
+}
+
+#next{
+  position:absolute;
+  top: -43%;
+  left:410%;
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size:900px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: darkgrey;
+}

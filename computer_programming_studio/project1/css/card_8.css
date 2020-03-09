@@ -1,0 +1,84 @@
+#responsibility{
+  position:absolute;
+  top:20%;
+  left:15%;
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-transform: uppercase;
+  animation: bal 5s ease-in-out infinite;
+  z-index:100;
+  line-height: 1em;
+
+}
+
+@-webkit-keyframes bal {
+  0% {
+    transform:rotate(0deg);
+  }
+
+  25% {
+    transform:rotate(30deg);
+  }
+
+
+  50% {
+    transform:rotate(-20deg);
+  }
+
+  75%{
+    transform:rotate(10deg);
+
+  }
+
+  100% {
+    transform:rotate(0deg);
+  }
+}
+
+#courage{
+    position:absolute;
+    top:45%;
+    left:41%;
+    font-family: termina, sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+
+}
+
+#ex{
+    font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+
+}
+
+a{
+  opacity:1;
+  position: absolute;
+  top:83%;
+  left:40%;
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: lightgrey;
+  }
+
+  a:link {
+  		color: lightgrey;
+  		text-decoration: none;
+  }
+
+  a:visited {
+  		color: lightgrey;
+  }
+
+  a:hover {
+  		color: black;
+  	}

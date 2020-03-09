@@ -1,0 +1,82 @@
+
+body {
+  padding: 2% 5%;
+  line-height: 1.4;
+}
+
+.example h1 {
+  font-family: termina, sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.intro {
+  font-size: 40px;
+}
+
+p {
+  font-size: 2vw;
+  font-family: termina, sans-serif;
+  font-weight: 300px;
+  font-style: ;
+  color: red;
+  direction: ;
+  letter-spacing: ;
+  line-height: ;
+  text-align: center;
+  text-decoration: ;
+  text-indent: ;
+  text-shadow: ;
+  text-transform: ;
+  text-overflow: ;
+  word-spacing: ;
+}
+
+@media screen and (max-width: 1100px) {
+
+  body {
+
+    background-color:blue;
+  }
+
+  .intro {
+    font-size: 3vw;
+    color: white;
+  }
+
+  .example h1 {
+    color: yellow;
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 2vw;
+    color:white;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+
+    background-color:black;
+  }
+
+  .intro {
+    font-size: 4vw;
+    color:red;
+  }
+
+  .example h1 {
+    color: white;
+    font-size: 5vw;
+  }
+
+  p {
+    font-size: 3  vw;
+    color:red;
+  }
+}

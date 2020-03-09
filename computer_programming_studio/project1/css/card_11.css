@@ -1,0 +1,103 @@
+#courage{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  -webkit-text-fill-color: black;
+  z-index: 100;
+
+
+}
+
+#courageref{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  z-index: 99;
+  -webkit-box-reflect: below -100px;
+  background: -webkit-linear-gradient(white 15%, lightgrey 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+a{
+  opacity:1;
+  position: absolute;
+  top: 40%;
+  left: 66%;
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  color: black;
+  -webkit-text-fill-color: black;
+  z-index: 100;
+  animation: fade1 15s linear;
+
+}
+
+  @keyframes fade1 {
+
+  0%{
+    opacity:0;
+  }
+
+  100%{
+    opacity:1;
+  }
+
+  }
+
+
+a:link {
+		color: black;
+		text-decoration: none;
+}
+
+a:visited {
+		color: black;
+}
+
+a:hover {
+		color: lightgrey;
+	}
+
+
+#nextref{
+  opacity:1;
+  position: absolute;
+  top: 40%;
+  left: 66%;
+  font-family: termina, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size:100px;
+  z-index: 99;
+  -webkit-box-reflect: below -105px;
+  background: -webkit-linear-gradient(white 35%, lightgrey 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fade 8s linear;
+
+}
+
+@keyframes fade {
+
+  0%{
+    opacity:0;
+  }
+
+  100%{
+    opacity:1;
+  }
+
+}

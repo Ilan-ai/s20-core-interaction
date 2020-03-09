@@ -1,0 +1,24 @@
+html{
+  font-size: 2vw;
+}
+
+.numbers{
+  font-family: futura-pt-bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 400px;
+  text-align: center;
+  color:red;
+}
+
+#n3pm{
+  position:absolute;
+  width: 50rem;
+  opacity:1;
+  text-shadow:6px 3px white,2px 1px blue,
+  4px 2px black,
+  6px 3px black,
+  8px 4px black,
+  10px 5px black;
+  z-index: 6;
+}

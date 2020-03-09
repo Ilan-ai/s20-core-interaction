@@ -1,0 +1,67 @@
+#cross{
+  text-align: center;
+  opacity:1;
+  font-size:800px;
+  font-weight:bold;
+  font-family: sans-serif;
+}
+
+#courage{
+  position:absolute;
+  top:50%;
+  left:32%;
+  color: red;
+  font-family: cabazon, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  transform: rotate(56deg);
+
+}
+
+#courage2{
+  position:absolute;
+  top:52%;
+  left:31%;
+  color:white;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  transform: rotate(-56deg);
+
+}
+
+#space{
+opacity:0;
+
+}
+
+#R{
+color:pink;
+
+}
+
+#quote{
+  position:absolute;
+  left:35%;
+  top:105%;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: futura-pt, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 20px;
+  color:black;
+  line-height: .4;
+
+}
+
+#courage3{
+  font-family: cabazon, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color:red;
+
+}
