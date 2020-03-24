@@ -14,52 +14,62 @@ html{
 
 #n6am{
   position:absolute;
+  top:3rem;
   width: 50rem;
-  opacity:1;
-  color:black;
+  opacity:0;
   text-shadow:;
   z-index: 6;
 }
 
 #n7am{
   position:absolute;
+  top:3rem;
   width: 50rem;
-  opacity:1;
-  color:black;
+  opacity:0;
   text-shadow:;
   z-index: 6;
 }
 
 #n8am{
   position:absolute;
+  top:3rem;
   width: 50rem;
-  opacity:1;
-  color:black;
+  opacity:0;
   text-shadow:;
   z-index: 6;
 }
 
 #n9am{
   position:absolute;
+  top:3rem;
   width: 50rem;
-  opacity:1;
-  color:black;
+  opacity:0;
   text-shadow:;
   z-index: 6;
 }
 
 #n10am{
   position:absolute;
+  top:3rem;
   width: 50rem;
-  opacity:1;
-  color:black;
+  opacity:0;
   text-shadow:;
   z-index: 6;
+}
+
+#n11am{
+position:absolute;
+top:3rem;
+width: 50rem;
+opacity:0;
+text-shadow:;
+z-index: 6;
 }
 
 
 #n12pm{
   position:absolute;
+  top:3rem;
   width: 50rem;
   opacity:0;
   text-shadow:;

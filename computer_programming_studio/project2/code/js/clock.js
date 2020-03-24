@@ -8,16 +8,16 @@ var allnumbers = document.getElementsByClassName("numbers")
 setInterval(function (){
 //var shadow6am= n6am.style.textShadow;
 //var shadow7am= n7am.style.textShadow;
-var shadow1pm= n7am.style.textShadow;
-var shadow1pm= n8am.style.textShadow;
-var shadow1pm= n9am.style.textShadow;
-var shadow1pm= n10am.style.textShadow;
-var shadow1pm= n11am.style.textShadow;
+/*var shadow1pm= n7am.style.textShadow;
+var shadow1pm= n8am.style.textShadow;*/
+var shadow9am= n9am.style.textShadow;
+var shadow10am= n10am.style.textShadow;
+var shadow11am= n11am.style.textShadow;
 var shadow12pm= n12pm.style.textShadow;
-var shadow1pm= n1pm.style.textShadow;
+/*var shadow1pm= n1pm.style.textShadow;
 var shadow2pm= n2pm.style.textShadow;
 var shadow3pm= n3pm.style.textShadow;
-var shadow4pm= n4pm.style.textShadow;
+var shadow4pm= n4pm.style.textShadow;*/
 var shadow5pm= n5pm.style.textShadow;
 var shadow6pm= n6pm.style.textShadow;
 var shadow6pm= n7pm.style.textShadow;
@@ -88,85 +88,140 @@ var myDate= new Date;
         var x=y*(-2);
       }
       n8am.style.textShadow = shadow;
-    }
+    }*/
 
-    if(currentHour = 9){
+    if(currentHour == 9){
 
-      n8am.style.opacity= "0";
+      var y= 0;
+      var x= 0;
+
+      var a= -2;
+      var b= 1;
+
+      var r= -4;
+      var s= 2;
+
       n9am.style.opacity= "1";
+      shadow9am= "";
 
-      for (var i = 0; i < currentSecond; i++) {
-        if(i === currentSecond - 1){
-          shadow = shadow + `${x}px ${y}px black`
+      for (var i = 0; i < currentMinute; i++) {
+        if(i === currentMinute - 1){
+          shadow9am = shadow9am + `${x}px ${y}px lightgrey`
 
         }else{
-          shadow = shadow + `${x}px ${y}px black, `
+          shadow9am = shadow9am + `${x}px ${y}px lightgrey, ${a}px ${b}px lightgrey, ${r}px ${s}px lightgrey, `
         }
 
-        var y=y+1;
+        var y=y+3;
         var x=y*(-2);
+
+        var b=b+3;
+        var a=b*(-2);
+
+        var s=s+3;
+        var r=s*(-2);
       }
-      n9am.style.textShadow = shadow;
+
+      n9am.style.textShadow = shadow9am;
+      console.log(shadow9am)
+
     }
 
-    if(currentHour = 10){
+    if(currentHour == 10){
 
-      n9am.style.opacity= "0";
+      var y= 0;
+      var x= 0;
+
+      var a= -2;
+      var b= 1;
+
+      var r= -4;
+      var s= 2;
+
       n10am.style.opacity= "1";
+      shadow10am= "";
 
-      for (var i = 0; i < currentSecond; i++) {
-        if(i === currentSecond - 1){
-          shadow = shadow + `${x}px ${y}px black`
+      for (var i = 0; i < currentMinute; i++) {
+        if(i === currentMinute - 1){
+          shadow10am = shadow10am + `${x}px ${y}px lightgrey`
 
         }else{
-          shadow = shadow + `${x}px ${y}px black, `
+          shadow10am = shadow10am + `${x}px ${y}px lightgrey, ${a}px ${b}px lightgrey, ${r}px ${s}px lightgrey, `
         }
 
-        var y=y+1;
+        var y=y+3;
         var x=y*(-2);
+
+        var b=b+3;
+        var a=b*(-2);
+
+        var s=s+3;
+        var r=s*(-2);
       }
-      n10am.style.textShadow = shadow;
+
+      n10am.style.textShadow = shadow10am;
+      console.log(shadow10am)
+
     }
 
-    if(currentHour = 11){
+    if(currentHour == 11){
 
-      n10am.style.opacity= "0";
+      var y= 0;
+      var x= 0;
+
+      var a= -2;
+      var b= 1;
+
+      var r= -4;
+      var s= 2;
+
       n11am.style.opacity= "1";
+      shadow11am= "";
 
-      for (var i = 0; i < currentSecond; i++) {
-        if(i === currentSecond - 1){
-          shadow = shadow + `${x}px ${y}px black`
+      for (var i = 0; i < currentMinute; i++) {
+        if(i === currentMinute - 1){
+          shadow11am = shadow11am + `${x}px ${y}px lightgrey`
 
         }else{
-          shadow = shadow + `${x}px ${y}px black, `
+          shadow11am = shadow11am + `${x}px ${y}px lightgrey, ${a}px ${b}px lightgrey, ${r}px ${s}px lightgrey, `
         }
 
-        var y=y+1;
+        var y=y+3;
         var x=y*(-2);
+
+        var b=b+3;
+        var a=b*(-2);
+
+        var s=s+3;
+        var r=s*(-2);
       }
-      n11am.style.textShadow = shadow;
+
+      n11am.style.textShadow = shadow11am;
+      console.log(shadow11am)
+
     }
 
-    if(currentHour = 12){
+    if(currentHour == 12){
 
       n11am.style.opacity= "0";
       n12pm.style.opacity= "1";
+      shadow12pm= "";
 
       for (var i = 0; i < currentSecond; i++) {
         if(i === currentSecond - 1){
-          shadow = shadow + `${x}px ${y}px black`
+          shadow12pm = shadow12pm + `${x}px ${y}px black`
 
         }else{
-          shadow = shadow + `${x}px ${y}px black, `
+          shadow12pm = shadow12pm + `${x}px ${y}px black, `
         }
 
         var y=y+1;
         var x=y*(-2);
       }
-      n12pm.style.textShadow = shadow;
-    }*/
+      n12pm.style.textShadow = shadow12pm;
+    }
 
-    if(currentHour == 13){
+    /*if(currentHour == 13){
 
       var y= 0;
       var x= 0;
@@ -270,7 +325,7 @@ var myDate= new Date;
 
       }
       n4pm.style.textShadow = shadow4pm;
-    }
+    }*/
     /*if(currentHour == 16){
 
       var y= 0;
@@ -308,7 +363,7 @@ var myDate= new Date;
       n4pm.style.textShadow = shadow4pm;
     }*/
 
-    if(currentHour == 17){
+    /*if(currentHour == 17){
 
       var y= 0;
       var x= 0;
@@ -367,7 +422,7 @@ var myDate= new Date;
       var x= 0;
 
       n6pm.style.opacity= "0";
-      shadow6pm= ""
+      shadow7pm= ""
       n7pm.style.opacity= "1";
       shadow7pm= ""
 
@@ -384,7 +439,7 @@ var myDate= new Date;
       }
 
       n7pm.style.textShadow = shadow7pm;
-    }
+    }*/
 
   }, 1000)
 
