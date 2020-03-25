@@ -124,10 +124,9 @@ button {
 
 footer {
   visibility: hidden;
-  margin-left: 20px;
+  margin-left: 330px;
   margin-top: 50px;
   padding: 20px 0px;
-  position: absolute;
   top: 15%;
   left:35%;
 }
