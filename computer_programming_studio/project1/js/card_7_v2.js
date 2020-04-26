@@ -1,28 +1,3 @@
-/*var LetterC= getElementById("c")
-var LetterO= getElementById("o")
-var LetterU= getElementById("u")
-var LetterR= getElementById("r")
-var LetterA= getElementById("a")
-var LetterG= getElementById("g")
-var LetterE= getElementById("e")
-
-
-function start(){
-
-  LetterC.addEventListener("click", function(){
-
-    LetterC.style.left = "18%";
-    LetterC.style.color = "white";
-    LetterC.style.animation = "glow 1s ease-in-out infinite alternate";
-
-  })
-
-}
-*/
-
-
-
-
 $(document).ready(function(){
 
   $("#c").on("click", function(){
@@ -64,3 +39,26 @@ $(document).ready(function(){
 
 
 })
+
+
+/*var LetterC= getElementById("c")
+var LetterO= getElementById("o")
+var LetterU= getElementById("u")
+var LetterR= getElementById("r")
+var LetterA= getElementById("a")
+var LetterG= getElementById("g")
+var LetterE= getElementById("e")
+
+
+function start(){
+
+  LetterC.addEventListener("click", function(){
+
+    LetterC.style.left = "18%";
+    LetterC.style.color = "white";
+    LetterC.style.animation = "glow 1s ease-in-out infinite alternate";
+
+  })
+
+}
+*/
