@@ -1,12 +1,44 @@
+body{
+  background-color: #FF4418;
+  animation: change 8s ease-in-out infinite;
+  animation delay:5s;
+  }
+
+  @-webkit-keyframes change {
+    0% {
+      background-color: #FFC000;
+    }
+
+    20% {
+      background-color: #610F47;
+    }
+
+    40% {
+      background-color: #9E003D;
+    }
+
+    60% {
+      background-color: #DA0033;
+    }
+
+    80% {
+      background-color: #FF4418;
+    }
+
+    100% {
+      background-color: #FFC000;
+    }
+  }
+
 #c{
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 35%;
-  left:16%;
+  top: -20%;
+  left:0%;
   animation: move1 8s ease-in-out infinite;
   animation delay:2s;
   }
@@ -14,43 +46,43 @@
   @-webkit-keyframes move1 {
     0% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
     }
 
     20% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
     }
 
     40% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     60% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
-      font-size:150px;
+      color: #610F47;
+      font-size:900px;
 
     }
 
     80% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
 
     }
 
     100% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
   }
@@ -59,11 +91,11 @@
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 35%;
-  left:26%;
+  top: -20%;
+  left:15%;
   animation: move2 8s ease-in-out infinite;
   animation delay:2s;
   }
@@ -71,44 +103,44 @@
   @-webkit-keyframes move2 {
     0% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
-      font-size:150px;
+      color: #610F47;
+      font-size:900px;
 
     }
 
     20% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
 
     }
 
     40% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
 
     60% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
 
     }
 
     80% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     100% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
     }
   }
@@ -117,54 +149,54 @@
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 42%;
-  left:36%;
+  top: -10%;
+  left:30%;
   animation: move3 8s ease-in-out infinite;
   }
 
   @-webkit-keyframes move3 {
     0% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     20% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
-      font-size:150px;
+      color: #610F47;
+      font-size:900px;
 
     }
 
     40% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
     }
 
     60% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
     }
 
     80% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
 
     100% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
 
     }
   }
@@ -173,11 +205,11 @@
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 35%;
-  left:46%;
+  top: -20%;
+  left:50%;
   animation: move4 8s ease-in-out infinite;
   }
 
@@ -185,43 +217,43 @@
     0% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
 
     }
 
     20% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
 
     40% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
 
     }
 
     60% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
     }
 
     80% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     100% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
-      font-size:150px;
+      color: #610F47;
+      font-size:900px;
 
     }
   }
@@ -230,54 +262,54 @@
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 42%;
-  left:56%;
+  top: -10%;
+  left:70%;
   animation: move5 8s ease-in-out infinite;
   }
 
   @-webkit-keyframes move5 {
     0% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
-      font-size:150px;
+      color: #610F47;
+      font-size:900px;
 
     }
 
     20% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
 
     }
 
     40% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     60% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
 
     80% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
     }
 
     100% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
     }
   }
@@ -286,54 +318,54 @@
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 35%;
-  left:66%;
+  top: -20%;
+  left:90%;
   animation: move6 8s ease-in-out infinite;
   }
 
   @-webkit-keyframes move6 {
     0% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     20% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
     }
 
     40% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
 
     60% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
-      font-size:150px;
+      color: #610F47;
+      font-size:900px;
 
     }
 
     80% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
 
     }
 
     100% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
     }
   }
@@ -342,53 +374,53 @@
   font-family: termina, sans-serif;
   font-style: bold;
   font-weight: 800;
-  font-size:100px;
+  font-size:900px;
   color: black;
   position: absolute;
-  top: 42%;
-  left:76%;
+  top: -10%;
+  left:110%;
   animation: move7 8s ease-in-out infinite;
   }
 
   @-webkit-keyframes move7 {
     0% {
       font-family:termina, sans-serif;
-      color: pink;
-      font-size:150px;
+      color: #FFC000;
+      font-size:900px;
 
     }
 
     20% {
       font-family: Baskerville, serif;
-      color: yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size:900px;
 
     }
 
     40% {
       font-family: Cabazon, sans-serif;
       color: red;
-      font-size:150px;
+      font-size:900px;
 
     }
 
     60% {
       font-family:serifa, serif;
-      color: purple;
-      font-size:150px;
+      color: #9E003D;
+      font-size:900px;
     }
 
     80% {
       font-family:rowdy, sans-serif;
-      color: blue;
-      font-size:150px;
+      color: #FF4418;
+      font-size:900px;
 
     }
 
     100% {
       font-family:termina, sans-serif;
-      color: Yellow;
-      font-size:150px;
+      color: #DA0033;
+      font-size: ;
 
 
     }
@@ -412,8 +444,10 @@ a{
     0% {
 
       font-family:termina, sans-serif;
-      color: pink;
+      color: #FFC000;
       font-size:100px;
+      top:50%;
+      left:65%;
 
     }
 
@@ -421,35 +455,45 @@ a{
       font-family: Cabazon, sans-serif;
       color: red;
       font-size:100px;
+      top:75%;
+      left:75%;
 
     }
 
     40% {
       font-family:rowdy, sans-serif;
-      color: blue;
+      color: #FF4418;
       font-size:100px;
+      top:40%;
+      left:95%;
 
     }
 
     60% {
       font-family:hwt-mardell, sans-serif;
-      color: green;
+      color: #610F47;
       font-size:100px;
+      top:60%;
+      left:115%;
 
     }
 
     80% {
       font-family:serifa, serif;
-      color: purple;
+      color: #9E003D;
       font-size:100px;
+      top:40%;
+      left:90%;
 
     }
 
     100% {
-    
+
       font-family: Baskerville, serif;
-      color: yellow;
+      color: #DA0033;
       font-size:100px;
+      top:50%;
+      left:65%;
 
     }
   }
