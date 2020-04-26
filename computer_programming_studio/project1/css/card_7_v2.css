@@ -10,7 +10,6 @@ background-color: black;
   font-size:80px;
   animation:glow 0s ease-in-out infinite alternate;
   animation-delay:1s;
-  animation-play-state: paused;
   }
 
   @-webkit-keyframes glow {

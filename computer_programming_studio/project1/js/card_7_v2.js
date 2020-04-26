@@ -1,3 +1,28 @@
+/*var LetterC= getElementById("c")
+var LetterO= getElementById("o")
+var LetterU= getElementById("u")
+var LetterR= getElementById("r")
+var LetterA= getElementById("a")
+var LetterG= getElementById("g")
+var LetterE= getElementById("e")
+
+
+function start(){
+
+  LetterC.addEventListener("click", function(){
+
+    LetterC.style.left = "18%";
+    LetterC.style.color = "white";
+    LetterC.style.animation = "glow 1s ease-in-out infinite alternate";
+
+  })
+
+}
+*/
+
+
+
+
 $(document).ready(function(){
 
   $("#c").on("click", function(){
@@ -5,7 +30,6 @@ $(document).ready(function(){
     $("#next").css("animation-delay","11s")
     $(".courage").css("animation","glow 1s ease-in-out infinite alternate")
     $(".courage").css("animation-delay","8s")
-    $(".courage").css("animation-play-state","running")
     $("#c").css("animation","move1 8s ease-in-out")
     $("#c").css("left","18%")
     $("#c").css("color","white")

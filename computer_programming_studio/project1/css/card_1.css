@@ -1,7 +1,7 @@
 #courage{
   position:absolute;
-  top: -40%;
-  left:0%;
+  margin-left: 830px;
+  margin-top: 450px;
   font-family: termina, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -11,8 +11,8 @@
 
 #next{
   position:absolute;
-  top: -43%;
-  left:410%;
+  margin-left: 830px;
+  margin-top: 14000px;
   font-family: termina, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -30,4 +30,41 @@ a:visited {
 
 a:hover{
     color: darkgrey;
+}
+
+.horizontal-scroll-wrapper{
+  position:absolute;
+  display:block;
+  top:0;
+  left:0;
+  width:1000px;
+  height:1420px;
+  margin:0;
+  background:white;
+  overflow-y:auto;
+  overflow-x:hidden;
+  transform:rotate(-90deg) translateY(-1000px);
+  transform-origin:right top;
+}
+
+.horizontal-scroll-wrapper > div{
+  display:block;
+  padding:50px;
+  background:white;
+  transform:rotate(90deg);
+  transform-origin: right top;
+}
+
+.rectangles{
+  padding:100px 0 0 0;
+}
+
+.rectangles > div{
+  width:540px;
+  height:60px;
+  margin:0px 0px;
+  padding:0px;
+  background:white;
+  transform:rotate(90deg) translateY(80px);
+  transform-origin: right top;
 }
