@@ -6,8 +6,36 @@
   font-style: normal;
   font-weight: 700;
   font-size:900px;
-
+  color: red;
+  animation: colortran 5s ease-in-out infinite;
 }
+
+@-webkit-keyframes colortran {
+  0% {
+    color: #FFC000;
+  }
+
+  20% {
+    color: #610F47;
+  }
+
+  40% {
+    background-color: #9E003D;
+  }
+
+  60% {
+    color: #DA0033;
+  }
+
+  80% {
+    color: #FF4418;
+  }
+
+  100% {
+    color: #FFC000;
+  }
+}
+
 
 #next{
   position:absolute;
@@ -29,7 +57,34 @@ a:visited {
 }
 
 a:hover{
-    color: darkgrey;
+    color:red;
+    animation:colortran2;
+}
+
+@-webkit-keyframes colortran2 {
+  0% {
+    color: #FFC000;
+  }
+
+  20% {
+    color: #610F47;
+  }
+
+  40% {
+    color: #9E003D;
+  }
+
+  60% {
+    color: #DA0033;
+  }
+
+  80% {
+    color: #FF4418;
+  }
+
+  100% {
+    color: #FFC000;
+  }
 }
 
 .horizontal-scroll-wrapper{
